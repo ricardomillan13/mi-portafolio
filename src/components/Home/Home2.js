@@ -13,37 +13,42 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Soy <b className="purple">desarrollador full-stack</b> enfocado en crear aplicaciones web funcionales, escalables y bien diseñadas. Me apasiona convertir ideas en soluciones digitales sólidas, cuidando tanto la experiencia del usuario como la calidad del código.
               <br />
               <br />
-              I’m proficient in
+              Tengo experiencia en{" "}
+              <i>
+                <b className="purple">
+                  HTML, CSS, Bootstrap y JavaScript
+                </b>{" "}
+                para el desarrollo frontend, así como en{" "}
+                <b className="purple">
+                  Node.js, Java
+                </b>{" "}
+                para la lógica backend. Además, tengo experiencia en la integración y gestión de{" "}
+                <b className="purple">
+                  bases de datos MySQL
+                </b>
+                , lo que me permite desarrollar aplicaciones completas de principio a fin.
+              </i>
+              <br />
+              <br />
+              Me gusta construir
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  interfaces claras e intuitivas,{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              optimizar el rendimiento de las aplicaciones y aplicar buenas prácticas de desarrollo para asegurar proyectos mantenibles y eficientes.
               <br />
               <br />
-              My key areas of interest include developing
+              Siempre estoy en constante{" "}
+              <b className="purple">aprendizaje</b>, explorando nuevas{" "}
+              <b className="purple">tecnologías</b> y{" "}
               <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                mejorando mis <b className="purple">habilidades</b> para{" "}
+                <b className="purple">ofrecer soluciones que aporten valor real</b>.
               </i>
             </p>
           </Col>
