@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import leaf from "../../Assets/Projects/PlantasMedicinales.png";
+import emotion from "../../Assets/Projects/Munay.png";
+import editor from "../../Assets/Projects/Weather.png";
+import chatify from "../../Assets/Projects/FenixLaser.png";
+import suicide from "../../Assets/Projects/TierraBendita.png";
+import bitsOfCode from "../../Assets/Projects/Hackaton.png";
 
 function Projects() {
   return (
@@ -24,11 +24,12 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              isBlog={true}
+              title="Fénix Láser"
+              description="Diseñe y desarrolle el e-commerce de Fénix Láser utilizando JavaScript, HTML5 y CSS3, apoyando la integración con funcionalidades de backend.
+               El proyecto se enfocó en ofrecer una experiencia de usuario clara y funcional, orientada a la personalización de productos, la correcta gestión del catálogo y la optimización del proceso de compra en línea."
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -36,10 +37,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Hackaton"
+              description="Trabajo bajo presión: desarrollo de una landing page deportiva creada durante un hackathon, enfocada en comercio deportivo y experiencia de usuario. El proyecto se construyó contra reloj, priorizando estructura, diseño responsive y funcionalidad para presentar una propuesta clara y atractiva."
+              ghLink="https://github.com/ricardomillan13/Hackaton"
+              demoLink="https://sportcommerce.netlify.app/"
             />
           </Col>
 
@@ -47,10 +48,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Weather App"
+              description="Diseñe y desarrolle una aplicación web funcional que consume una API pública de clima para mostrar información en tiempo real a partir de las coordenadas ingresadas por el usuario, ofreciendo una interfaz clara y fácil de usar."
+              ghLink="https://github.com/ricardomillan13/tifc-laboratorio_weather"
+              demoLink="https://ricardomillan13.github.io/tifc-laboratorio_weather/"
             />
           </Col>
 
@@ -58,33 +59,32 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Plantas Medicinales"
+              description="Diseñe y desarrolle la interfaz de usuario (Frontend) utilizando JavaScript, HTML5 y CSS3, enfocándonos en la creación de un blog de plantas medicinales con una estructura clara, navegación intuitiva y una experiencia de usuario pensada para facilitar la lectura y el acceso al contenido."
+              ghLink="https://github.com/ricardomillan13/plantas_medicinales"
+              demoLink="https://ricardomillan13.github.io/plantas_medicinales/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              isBlog={true}
+              title="Tierra Bendita Cafe"
+              description="Diseñe y desarrolle una solución digital funcional para Tierra Bendita Café, que integra un menú digital, un sistema de punto de venta (POS) y un display de ofertas, orientada a optimizar la gestión de productos, pedidos y promociones dentro de la cafetería."
+            // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+            // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              isBlog={true}
+              title="Clinica Dental Munay"
+              description="Diseñe y desarrolle una solución digital funcional para la Clínica Dental Munay, basada en un formulario para la generación de recetas, que permite llevar un control organizado de las recetas emitidas y facilitar su emisión en formato digital, optimizando los procesos administrativos de la clínica."
+            // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+            // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>
